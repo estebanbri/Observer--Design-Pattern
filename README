@@ -1,0 +1,6 @@
+# Design Pattern: Observer
+Caracteristicas:
+
+- Tipo: Behavioral
+- Este patron es usado cuando existe una relacion uno-a-muchos entre objtetos, de tal manera que si un objeto es modificado, sus objetos dependientes van a ser notificados automaticamente. "No nos llames, nosotros te llamamos" 
+- Usa 3 actores: Sujeto, Observer y Cliente.
