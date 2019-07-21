@@ -2,5 +2,5 @@
 Caracteristicas:
 
 - Tipo: Behavioral
-- Este patron es usado cuando existe una relacion uno-a-muchos entre objtetos, de tal manera que si un objeto es modificado, sus objetos dependientes van a ser notificados automaticamente. "No nos llames, nosotros te llamamos" 
+- Este patron es usado cuando existe una relacion uno-a-muchos entre objtetos, de tal manera que si el objeto, llamado subject, cambia su estado automaticamente todos sus objetos dependientes van a ser notificados, usualmente haciendo un call a uno de sus metodos. "No nos llames, nosotros te llamamos" 
 - Usa 3 actores: Sujeto, Observer y Cliente.
